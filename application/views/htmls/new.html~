@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>[!--pagetitle--]</title>
+<meta name="keywords" content="[!--pagekey--]" />
+<meta name="description" content="[!--pagedes--]" />
+<link href="yangqq/css/base.css" rel="stylesheet">
+<link href="yangqq/css/style.css" rel="stylesheet">
+<link href="yangqq/css/media.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<!--[if lt IE 9]>
+<script src="[!--news.url--]skin/yangqq/js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="ibody">
+[!--temp.header2--]
+<article>
+    <h2 class="about_h">您现在的位置是：<a href="[!--news.url--]">首页</a>><a href="#">[!--class.name--]</a></h2>
+    <div class="index_about">
+      <h2 class="c_titile">[!--title--]</h2>
+      <p class="box_c"><span class="d_time">发布时间：[!--newstime--]</span><span>编辑：[!--writer--]</span><span>浏览（[!--onclick--]）</span><span>评论（[!--plnum--]）</span></p>
+      <ul class="infos">
+              [!--newstext--]
+<p align="center" class="pageLink">[!--page.url--]</p>
+      </ul>
+      <div class="keybq">
+        <p><span>关键字词</span>：[!--keyboard--]</p>
+      </div>
+      <div class="nextinfo">
+        <p>上一篇：[!--info.pre--]</p>
+        <p>下一篇：[!--info.next--]</p>
+      </div>
+      <div class="otherlink">
+        <h2>相关文章</h2>
+        <ul>
+          [!--other.link--]
+        </ul>
+      </div>
+    </div>
+  </article>
+<aside>
+    <div class="rnav">
+[showclasstemp]'selfinfo',14,0,0[/showclasstemp]
+    </div>
+    <div class="ph_news">
+      <h2>
+        <p>点击排行</p>
+      </h2>
+      <ul class="ph_n">
+[ecmsinfo]'selfinfo',9,0,0,1,10,0[/ecmsinfo] 
+      </ul>
+      <h2>
+        <p>最后更新</p>
+      </h2>
+      <ul>
+        [ecmsinfo]'selfinfo',9,0,0,0,2,0[/ecmsinfo] 
+      </ul>
+      <h2>
+        <p>最新评论</p>
+      </h2>
+      <ul class="pl_n">
+        <dl>
+          <dt><img src="[!--news.url--]skin/yangqq/images/s8.jpg"> </dt>
+          <dt> </dt>
+          <dd>DanceSmile
+            <time>49分钟前</time>
+          </dd>
+          <dd><a href="/">文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到</a></dd>
+        </dl>
+        <dl>
+          <dt><img src="[!--news.url--]skin/yangqq/images/s7.jpg"> </dt>
+          <dt> </dt>
+          <dd>yisa
+            <time>2小时前</time>
+          </dd>
+          <dd><a href="/">我手机里面也有这样一个号码存在</a></dd>
+        </dl>
+        <dl>
+          <dt><img src="[!--news.url--]skin/yangqq/images/s6.jpg"> </dt>
+          <dt> </dt>
+          <dd>小林博客
+            <time>8月7日</time>
+          </dd>
+          <dd><a href="/">博客色彩丰富，很是好看</a></dd>
+        </dl>
+        <dl>
+          <dt><img src="[!--news.url--]skin/yangqq/images/003.jpg"> </dt>
+          <dt> </dt>
+          <dd>DanceSmile
+            <time>49分钟前</time>
+          </dd>
+          <dd><a href="/">文章非常详细，我很喜欢.前端的工程师很少，我记得几年前yahoo花高薪招聘前端也招不到</a></dd>
+        </dl>
+        <dl>
+          <dt><img src="[!--news.url--]skin/yangqq/images/002.jpg"> </dt>
+          <dt> </dt>
+          <dd>yisa
+            <time>2小时前</time>
+          </dd>
+          <dd><a href="/">我手机里面也有这样一个号码存在</a></dd>
+        </dl>
+      </ul>
+      <h2>
+        <p>最近访客</p>
+        <ul>
+          <img src="[!--news.url--]skin/yangqq/images/vis.jpg"><!-- 直接使用“多说”插件的调用代码 -->
+        </ul>
+      </h2>
+    </div>
+    <div class="copyright">
+      <ul>
+        <p> Design by <a href="http://www.yangqq.com">DanceSmile</a></p>
+        <p>蜀ICP备11002373号-1</p>
+        </p>
+      </ul>
+    </div>
+  </aside>
+[!--temp.footer2--]
+[!--page.stats--]
+</body>
+</html>

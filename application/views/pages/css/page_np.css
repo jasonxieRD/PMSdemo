@@ -1,0 +1,6 @@
+
+.pagelist{clear:both; padding:15px 0; color:#666; font:normal 12px/24px Arial; text-align:center;}
+.pagelist a{display:inline-block; height:22px; margin:0 2px; padding:0 8px; border:solid 1px #dbe5ee; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px; background:#fff; color:#333; font:normal 12px/22px Arial, Helvetica, sans-serif; cursor:pointer;}
+.pagelist strong{display:inline-block; height:24px; margin:0 3px; padding:0 8px; border:none; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px; background:#07519a; color:#fff; font-weight:normal; line-height:24px; text-decoration:none;}
+.pagelist a:hover{height:24px; margin:0 3px; border:none; background:#07519a; color:#fff; line-height:24px; text-decoration:none;}
+.pagelist a.select{cursor:default;}

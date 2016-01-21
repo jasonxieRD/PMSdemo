@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>[!--pagetitle--]</title>
+<meta name="keywords" content="[!--pagekey--]" />
+<meta name="description" content="[!--pagedes--]" />
+<link href="yangqq/css/base.css" rel="stylesheet">
+<link href="yangqq/css/index.css" rel="stylesheet">
+<link href="yangqq/css/media.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+<!--[if lt IE 9]>
+<script src="[!--news.url--]skin/yangqq/js/modernizr.js"></script>
+<![endif]-->
+</head>
+<body>
+<!--把杨青妹妹的模板转换成了UTF-8，在ECMS7.0上导出的。包括了五个页面，首页--封面模板，文章列表--新列表页文章，内容页--新内容页文章，分享页是在列表页，关于我在自定义里。下一步，讲在这个基础修改很多地方，敬请关注：hexianghai.com，不带www.的哦。QQ664278890-->
+<div class="ibody">
+[!--temp.header2--]
+  <article>
+    <div class="banner">
+      <ul class="texts">
+        <p>The best life is use of willing attitude, a happy-go-lucky life. </p>
+        <p>最好的生活是用心甘情愿的态度，过随遇而安的生活。</p>
+      </ul>
+    </div>
+    <div class="bloglist">
+      <h2>
+        <p><span>推荐</span>文章</p>
+      </h2>
+    </div>
+	<div class="blogs">
+		<h3>
+			<a href="">weqrqwwwwww</a>
+		</h3>
+		<ul>
+werwe
+		</ul>
+		
+	</div>
+  </article>
+  <aside>
+    <div class="avatar"><a href="about.html"><span>关于杨青</span></a></div>
+    <div class="topspaceinfo">
+      <h1>执子之手，与子偕老</h1>
+      <p>于千万人之中，我遇见了我所遇见的人....</p>
+    </div>
+    <div class="about_c">
+      <p>网名：DanceSmile | 即步非烟</p>
+      <p>职业：Web前端设计师、网页设计 </p>
+      <p>籍贯：四川省—成都市</p>
+      <p>电话：13662012345</p>
+      <p>邮箱：dancesmiling@qq.com</p>
+    </div>
+    <div class="bdsharebuttonbox"><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_more" data-cmd="more"></a></div>
+    <div class="tj_news">
+      <h2>
+        <p class="tj_t1">最新文章</p>
+      </h2>
+      <ul>
+[ecmsinfo]0,9,0,0,3,2,0[/ecmsinfo]
+      </ul>
+      <h2>
+        <p class="tj_t2">推荐文章</p>
+      </h2>
+      <ul>
+	<li>werwerwer2333333333333333333333333333333333333333333</li>
+      </ul>
+    </div>
+    <div class="links">
+      <h2>
+        <p>友情链接</p>
+      </h2>
+      <ul>
+        <li><a href="http://www.yangqq.com">杨青个人博客</a></li>
+        <li><a href="http://bbs.3dst.com">3DST技术社区</a></li>
+      </ul>
+    </div>
+    <div class="copyright">
+      <ul>
+        <p> Design by <a href="/">DanceSmile</a></p>
+        <p>蜀ICP备11002373号-1</p>
+        </p>
+      </ul>
+    </div>
+  </aside>
+[!--temp.footer2--]
+</body>
+</html>
