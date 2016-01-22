@@ -1,27 +1,6 @@
 
 <link href="application/views/pages/css/register.css" rel="stylesheet">
 
-<!---->
-<!---->
-<!--<div id="bottom-login" class="hide">-->
-<!--    <div class="wrp">-->
-<!--        <img class="img" src="images/photos.jpg">-->
-<!--        <div class="slogan">-->
-<!--            <p class="big">登录jianchao'zone</p>-->
-<!--            <p class="small">开始你的第一篇博客</p>-->
-<!--        </div>-->
-<!---->
-<!--        <form class="form" method="post" action="https://reg.163.com/logins.jsp">-->
-<!--            <input type="hidden" name="url" id="bt-goToCurrentPage" value="http://xue.youdao.com/login.a?back_url=http%3A%2F%2Fxue.youdao.com%2Fw%3Fpage%3D5%26type%3Dall">-->
-<!--            <input type="hidden" name="type" value="1">-->
-<!--            <input type="hidden" name="savelogin" value="1">-->
-<!--            <input id="username" name="username" type="text " class="text username" placeholder="163、126邮箱可直接登录" autocomplete="off">-->
-<!--            <input id="password" name="password" type="password" class="text" value="" placeholder="密码">-->
-<!--            <input type="submit" class="blue-btn btn login-rlog" data-act="login" value="登录" hidefocus="true" data-rlog="category=OPERATION&amp;page=tinyEnglish&amp;part=footer&amp;position=login">-->
-<!--            <a id="bt-register" class="btn register-btn login-rlog" value="注册" hidefocus="true" target="_blank" href="http://reg.163.com/reg/reg.jsp?product=xue&amp;url=%40HOME_PAGE%40">注册</a>-->
-<!--        </form>-->
-<!--    </div>-->
-<!--</div>-->
 <div class="ibody">
     [!--temp.header2--]
     <article>
@@ -63,7 +42,7 @@
                                     <span class="link_postdate"><?php echo $page[MYSQL_DATE_E]; ?></span>
                                     <?php if( isset($usr) && $usr === $auth ) { ?>
                                         <span class="link_edit"><a href="<?php echo site_url('pages/editor/'.$page[MYSQL_PAGE_E]);?>" title="编辑">编辑</a></span>
-                                        <span class="link_delete"><a href="<?php echo site_url('pages/delete/'.$page[MYSQL_PAGE_E]);?>" title="删除">删除</a></span>
+                                        <span class="link_delete"><a href="<?php echo site_url('pages/delete/'.$page[MYSQL_PAGE_E]);?>" title="删除" onclick="delete_confirm()">删除</a></span>
                                     <?php }?>
                             </div>
 
@@ -83,6 +62,10 @@
 
         </div>
     </article>
+    <script type="text/javascript"
+            src="<?= 'application/views/pages/js/delete.js'?>">
+    </script>
+
     <aside>
         <div class="avatar"><a href="<?php echo site_url( 'pages/index/' . $auth); ?>"><span>个人主页</span></a></div>
         <div class="topspaceinfo">

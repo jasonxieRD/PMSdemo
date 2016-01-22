@@ -165,7 +165,7 @@ class Pages extends CI_Controller
         if ( !empty($id) )
             $this->pages_model->delete_paper($usr, $id);
 
-        $this->paper($usr, $id);
+        redirect("pages/paper/$usr/$id");
     }
 
     /**

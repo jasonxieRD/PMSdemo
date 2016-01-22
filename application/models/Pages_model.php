@@ -127,7 +127,6 @@ class pages_model extends CI_Model
     public function get_neighbor($auth, $id = null, $nORp = '>')
     {
         $str = $nORp === '<' ? "desc" : "";
-        echo $auth;
         $sql = 'Select * from ' . MYSQL_TABLE_NAME
             . ' where  ' . (isset($id) ? (MYSQL_PAGE_E . $nORp . $id . ' AND ') : '') . MYSQL_USER_E . '=' . $auth
             . ' AND isdelete=false order by ' . MYSQL_PAGE_E . ' ' . $str . ' limit 1';
