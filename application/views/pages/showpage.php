@@ -1,8 +1,8 @@
 <link href="application/views/pages/css/style.css" rel="stylesheet">
 <div class="ibody">
     <article>
-        <h2 class="about_h">您现在的位置是：<a href="<?php echo site_url(); ?>">首页</a>><a
-                href="<?php echo site_url('pages/' . $usr); ?>"><?php echo $page['title']; ?></a></h2>
+        <h2 class="about_h">您现在的位置是：<a href="<?php echo site_url('pages/index/'.$auth); ?>">首页</a>><a
+                href="<?php echo site_url('pages/paper/' . $usr .'/'.$page['pageId']); ?>"><?php echo $page['title']; ?></a></h2>
 
         <div class="index_about">
             <h2 class="c_titile"><?php echo $page['title']; ?></h2>

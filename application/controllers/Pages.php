@@ -257,7 +257,7 @@ class Pages extends CI_Controller
             $this->pages_model->update_db(MYSQL_TABLE_NAME, $cond_data, $data);
 
         }
-        $this->paper($auth, $id);
+        redirect("pages/paper/$auth/$id");
     }
 
     /**

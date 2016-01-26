@@ -11,7 +11,7 @@
 <div class="main">
     <div class="container container-custom">
         <div class="row wrap-login">
-            <div class="login-banner col-sm-6 col-md-7 col-lg-7 hidden-xs"><a href="http://www.csdn.net" target="_blank"><img src="../application/views/pages/images/login-banner.png" class="img-responsive"></a></div>
+            <div class="login-banner col-sm-6 col-md-7 col-lg-7 hidden-xs"><a target="_blank"><img src="../application/views/pages/images/login-banner.png" class="img-responsive"></a></div>
             <div class="login-user col-xs-12 col-sm-6 col-md-5 col-lg-5">
                 <div class="login-part">
                     <h3>帐号登录</h3>

@@ -1,6 +1,7 @@
 
 <link href="application/views/pages/css/register.css" rel="stylesheet">
 
+
 <div class="ibody">
     [!--temp.header2--]
     <article>
@@ -42,7 +43,7 @@
                                     <span class="link_postdate"><?php echo $page[MYSQL_DATE_E]; ?></span>
                                     <?php if( isset($usr) && $usr === $auth ) { ?>
                                         <span class="link_edit"><a href="<?php echo site_url('pages/editor/'.$page[MYSQL_PAGE_E]);?>" title="编辑">编辑</a></span>
-                                        <span class="link_delete"><a href="<?php echo site_url('pages/delete/'.$page[MYSQL_PAGE_E]);?>" title="删除" onclick="delete_confirm()">删除</a></span>
+                                        <span class="link_delete"><a href="<?php echo site_url('pages/delete/'.$page[MYSQL_PAGE_E]);?>" title="删除">删除</a></span>
                                     <?php }?>
                             </div>
 
@@ -62,10 +63,6 @@
 
         </div>
     </article>
-    <script type="text/javascript"
-            src="<?= 'application/views/pages/js/delete.js'?>">
-    </script>
-
     <aside>
         <div class="avatar"><a href="<?php echo site_url( 'pages/index/' . $auth); ?>"><span>个人主页</span></a></div>
         <div class="topspaceinfo">
